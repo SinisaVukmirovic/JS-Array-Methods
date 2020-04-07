@@ -56,13 +56,13 @@ console.log(products);
 console.log(totalWorth);
 
 // same but with returning as object
-const totalProductWordt = products.map(item => ({
+const totalProductsWorth = products.map(item => ({
     product: item.item,
     totalValue: item.price * item.price
 }));
 
 console.log(products);
-console.log(totalProductWordt);
+console.log(totalProductsWorth);
 
 console.log('---------------------');
 
